@@ -1,0 +1,312 @@
+p{
+  word-break: break-all;
+}
+#superior{
+	background: black;
+}
+#login{
+  padding-right: 1.6%;
+}
+#social{
+	padding-top: 6%;
+  	padding-bottom: 6%;
+    float: right;
+    padding-right: 6.2%;
+}
+#usuario{
+    padding-top: 1%;
+}
+.foto{
+  padding: 10%;
+    padding-bottom: 16%;
+}
+.tag{
+  padding: 10%;
+  padding-top: 0%;
+  padding-bottom: 4%;
+}
+
+.foto img{
+  border-radius: 50px;
+}
+.usuario a,.usuario p{
+  color:white !important;
+    padding-top: 12px;
+  text-align: center;
+}
+#password{
+	padding-left: 0%;
+    padding-top: 1%;
+}
+#enviar{
+	padding-left: 0%;
+}
+.btnredondo{
+  border-radius: 30px;
+  height: 25px;
+}
+#recuperar{
+	padding-top: 3%;
+  	padding-bottom: 3%;
+      font-size: 10px;
+      padding-left: 9%;
+}
+
+#recordarme input{
+	float: right;
+}
+#menu a{
+  font-size: 20px;
+  color:#01a8b1;
+
+}
+.blanco{
+  color: white !important;
+}
+#recordarme p{
+	text-align: center;
+	float: right;
+	padding-left: 10%;
+}
+#recuperar p, #recuperar a{
+  color:white;
+}
+#registro {
+  text-align: right;
+  border-right: 2px solid #01a8b1;
+}
+#nopuedo{
+  text-align: left;
+  padding-right: 0px;
+}
+#menu{
+	padding-bottom: 1%;
+	text-align: center;
+    padding-left: 3.1%;
+}
+#segundomenu div{
+	padding: 1.7%;
+}
+#myself{
+	margin-left: 4.7%;
+}
+ .muesca{
+    width: 0;
+  height: 0;
+  border-style: solid;
+  border-width: 16px 13px 16px 0;
+  z-index: 2000;
+  position: absolute;
+  float: right;
+  text-align: right;
+  margin-left: 31.3%;
+  margin-top: 16%;
+}
+.postrowpar .postcolpar .usuario{
+	background: black;
+} 
+.postrowpar .postcolpar  .muesca{
+  border-color: transparent white transparent transparent;
+} 
+.postrowpar .postcolpar .post{
+	background: white;
+}
+
+.postrowpar .postcolimpar .usuario{
+	background: #00a8b1;
+} 
+
+.postrowpar .postcolimpar .muesca{
+
+  border-color: transparent #e3e3e3 transparent transparent;
+} 
+
+
+.postrowpar .postcolimpar{
+	background: #e3e3e3;
+}
+
+.postrowimpar .postcolpar{
+	background: #e3e3e3;
+} 
+
+.postrowimpar .postcolimpar .usuario{
+	background: black;
+} 
+
+.postrowimpar .postcolimpar .muesca{
+  
+  border-color: transparent white transparent transparent;
+} 
+
+.postrowimpar .postcolimpar .post{
+	background: white;
+}
+
+.postrowimpar .postcolpar .usuario {
+	background: #00a8b1;
+} 
+
+.postrowimpar .postcolpar .muesca{
+
+  border-color: transparent #e3e3e3 transparent transparent;
+} 
+.negro{
+  color: black;
+}
+#logo{
+      padding-left: 4.6%;
+  padding-top: 1.4%;
+}
+#botonlogin{
+    color: #01a8b1;
+  font-size: 22px;
+  padding: 0px;
+  background-color: transparent;
+  border: none;
+}
+#footer{
+	text-align: center;
+  background-color: black;
+  z-index: 100;
+  position: relative;
+  padding: 3%;
+}
+@media (min-width: 768px){
+    .fivecolumns .col-md-1 {
+        width: 9.14893617021275%;
+        *width: 9.11170212765955%;
+    }
+
+}
+@media (min-width: 1200px) {
+    .fivecolumns .col-md-1 {
+        width: 9.00335897435895%%;
+        *width: 8.93712493180575%;
+    }
+
+    .col .well{ 
+	    margin-bottom: -99999px;
+	    padding-bottom: 99999px; 
+	    overflow: hidden; 
+	}
+
+	/* bottom row */
+	.col-base{ 
+	    margin-top: -15px; /* cut off top portion of bottom wells */
+	}
+}
+@media (min-width: 768px) and (max-width: 979px) {
+    .fivecolumns .col-md-1 {
+        width: 8.89502762430935%;
+        *width: 8.85779358175620%;
+    }
+}
+
+
+.equal, .equal > div[class*='col-'] {  
+    display: -webkit-box;
+    display: -moz-box;
+    display: -ms-flexbox;
+    display: -webkit-flex;
+    display: flex;
+    flex:1 0 auto;
+}
+
+#colder{
+	display: none;
+}
+#colizq{
+	width:80%;
+}
+
+.side_menu{
+  background-color: #1b1b1b;
+  height: 100%;
+  min-height: 100%;
+  overflow: hidden;
+  padding: 30px;
+  position: fixed;
+  top: 0;
+  right: 0px;
+  z-index: 4000;
+  display: none;
+}
+
+.side_menu.muestra{
+  background-color: #1b1b1b;
+  height: 100%;
+  min-height: 100%;
+  overflow: hidden;
+  padding: 30px;
+  position: fixed;
+  top: 0;
+  right: 0px;
+  z-index: 4000;
+  margin-right: 0px;
+  display: block;
+  max-width: 30%;
+}
+
+p, h3,label{
+	color: #01a8b1;
+}
+
+#comentarpsl{
+	font-size: 9px;
+}
+.boton{
+	background-color: #00a8b1;
+	border-color: #00a8b1;
+}
+
+.comenta{
+  color:#1c1c1a;
+}
+.interactuar{
+    padding-top: 3%;
+}
+.comentario{
+  padding-top: 5%;
+  padding-left: 3%;
+  padding-right: 3%;
+   
+}
+.comentario p{
+  font-size: 11px;
+}
+.escribir{
+  padding: 0px;
+}
+
+
+.puntaje{
+    background: url('../images/estrellas.png');
+  height: 21px;
+  width: 100%;
+  background-repeat: no-repeat; 
+}
+.divisor{
+  height: 32px;
+}
+.estrellas0{
+    background-position: 0px 0px;
+}
+.estrellas1{
+    background-position: 0px -24px;
+}
+.estrellas2{
+     background-position: 0px -48px;
+}
+.estrellas3{
+
+     background-position: 0px -72px;
+}
+.estrellas4{
+
+     background-position: 0px -96px;
+}
+.estrellas5{
+
+     background-position: 0px -120px;
+}

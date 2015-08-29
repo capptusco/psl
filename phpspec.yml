@@ -1,0 +1,5 @@
+suites:
+    main:
+        namespace: psl
+        psr4_prefix: psl
+        src_path: app
