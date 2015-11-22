@@ -4,6 +4,7 @@
         <title>PSL - @yield('title')</title>
         <link href="{{ asset('css/bootstrap.min.css') }}" rel="stylesheet" media="screen">
         <link href="{{ asset('css/custom.css') }}" rel="stylesheet" media="screen">
+        <link href='https://fonts.googleapis.com/css?family=Open+Sans' rel='stylesheet' type='text/css'>
     </head>
     <body>
 
@@ -79,49 +80,9 @@
            				</div>  
 
            				<div id="formulario" class="col-md-12">
-                    <form action="/foo/bar" method="POST">
-
-                      <div id="info" class="col-md-12">
-                      
-                        <div id="usuario" class="col-md-5">
-
-                            <input type="text" name="user" class="form-control btnredondo" placeholder="Usuario">
-
-                        </div>
-
-                        <div id="password" class="col-md-5">
-
-                            <input type="password" name="password" class="form-control btnredondo"  placeholder="Contraseña">
-
-                        </div>
-
-                        <div id="enviar" class="col-md-2">
-
-                            <input type="Submit" id="botonlogin" name="enviar" class="btn boton btn-block" value="Login">
-
-                        </div>
-                      
-                      </div>
-
-                      <div id="recuperar" class="col-md-10">
-
-
-                        <div id="recordarme" class="col-md-5">
-                          <p>Recordarme</p><input type="checkbox" name="remember" value="yes">
-                        </div>
-
-                        <div id="registro" class="col-md-3">
-                          <a href="index.html">Registro</a>
-                        </div>
-
-                        <div id="nopuedo" class="col-md-4">
-                          <a href="index.html">No puedo ingresar</a>
-                        </div>
-
-                      </div>
-
-                    </form>
+                    <button type="button" data-toggle="modal" data-target=".bs-example-modal-lg">Login</button>
            				</div> 
+
            			</div>  
 
            		</div>  
@@ -157,6 +118,70 @@
 
             </div>
 
+            <div class="container">
+ 
+            <div class="row">
+                <!-- Large modal -->
+                
+                <div class="modal fade bs-example-modal-lg" tabindex="-1" role="dialog" aria-labelledby="myLargeModalLabel">
+                  <div class="modal-dialog modal-lg">
+                    <div class="modal-content">
+                    
+                      <div class="modal-body">
+                      <div id="formulario" class="row">
+                      <form action="/foo/bar" method="POST">
+
+                                      <div id="info" class="col-md-12">
+                                      
+                                        <div id="usuario" class="row">
+
+                                            <input type="text" name="user" class="form-control btnredondo" placeholder="Usuario">
+
+                                        </div>
+
+                                        <div id="password" class="row">
+
+                                            <input type="password" name="password" class="form-control btnredondo"  placeholder="Contraseña">
+
+                                        </div>
+
+                                        <div id="enviar" class="row">
+
+                                            <input type="Submit" id="botonlogin" name="enviar" class="btn boton btn-block" value="Login">
+
+                                        </div>
+                                      
+                                      </div>
+
+                                      <div id="recuperar" class="col-md-10">
+
+
+                                        <div id="recordarme" class="col-md-5">
+                                          <p>Recordarme</p><input type="checkbox" name="remember" value="yes">
+                                        </div>
+
+                                        <div id="registro" class="col-md-3">
+                                          <a href="index.html">Registro</a>
+                                        </div>
+
+                                        <div id="nopuedo" class="col-md-4">
+                                          <a href="index.html">No puedo ingresar</a>
+                                        </div>
+
+                                      </div>
+
+                                    </form>
+                                  </div>
+                     
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                    </div>
+                    
+                    
+                </div>
+
             <div id="segundomenu" class="row fivecolumns">
               @yield('sidebar')        
         	  </div>
@@ -170,6 +195,8 @@
             </div> 
         </div>
            
+
+
         <script src="//code.jquery.com/jquery.js"></script>
         <script src="./js/collapsable.js"></script>
         <script src="./js/bootstrap.min.js"></script>

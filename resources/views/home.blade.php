@@ -58,7 +58,7 @@
           
        
 
-          @if($j%3 == 0)
+          @if($j%2 == 0)
             @if($j > 0)  
               <?php $i++; ?>
               <?php $j=0; ?>
@@ -72,7 +72,7 @@
              <?php $fila="postrowimpar";?>
           @endif
 
-          @if($j%3 == 0 )
+          @if($j%2 == 0 )
             <div class="{{ $fila }}"> 
           @endif
 
@@ -82,7 +82,7 @@
              <?php $columna="postcolimpar"; ?>
           @endif
           
-          <div class="{{ $columna }} col-md-4">
+          <div class="{{ $columna }} col-md-6">
 
             <div class="row">
               <div class="muesca"></div>
